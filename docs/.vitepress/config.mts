@@ -98,7 +98,7 @@ export default defineConfig({
     ],
 
     footer: {
-      message: '<a href="https://beian.miit.gov.cn/" target="_blank">辽ICP备2021013135号-1</a> <br> <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=21038102000366" target="_blank"><img src="https://cdn.tangjiayan.com/gongan.png">辽公网安备 21038102000366号</a>',
+      // message: '<a href="https://beian.miit.gov.cn/" target="_blank">辽ICP备2021013135号-1</a> <br> <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=21038102000366" target="_blank"><img src="https://cdn.tangjiayan.com/gongan.png">辽公网安备 21038102000366号</a>',
       copyright: 'Copyright © 2023 糖加盐'
     }
   }
