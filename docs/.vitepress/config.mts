@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: '糖加盐',
   titleTemplate: false,
-  base: '/www/',
+  // base: '/www/',
   description: "Jan Tang",
   head: [['link', { rel: 'icon', href: 'https://cdn.tangjiayan.com/windmill-com.png' }]],
   lang: 'zh-CN',
