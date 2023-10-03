@@ -10,12 +10,15 @@ hero:
   #   src: /logo.png
   #   alt: VitePress
   actions:
-    # - theme: brand
-    #   text: BLOG.TANGJIAYAN.CN
-    #   link: 'http://blog.tangjiayan.cn/'
+    - theme: brand
+      text: BLOG.TANGJIAYAN.CN
+      link: 'https://blog.tangjiayan.cn/'
     - theme: brand
       text: NOTES.TANGJIAYAN.CN
       link: 'https://notes.tangjiayan.cn/'
+    # - theme: brand
+    #   text: CV.TANGJIAYAN.CN
+    #   link: 'https://cv.tangjiayan.cn/'
 
 head:
   - - link
