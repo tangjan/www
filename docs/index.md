@@ -17,11 +17,11 @@ hero:
       text: BLOG.TANGJIAYAN.CN
       link: 'https://blog.tangjiayan.cn/'
     - theme: brand
+      text: STORY.TANGJIAYAN.CN
+      link: 'https://story.tangjiayan.cn/'
+    - theme: brand
       text: NOTES.TANGJIAYAN.CN
       link: 'https://notes.tangjiayan.cn/'
-    # - theme: brand
-    #   text: CV.TANGJIAYAN.CN
-    #   link: 'https://cv.tangjiayan.cn/'
 
 head:
   - - link
