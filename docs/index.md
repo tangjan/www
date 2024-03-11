@@ -14,6 +14,9 @@ hero:
       text: CV.TANGJIAYAN.CN
       link: 'https://cv.tangjiayan.cn/'
     - theme: brand
+      text: NAV.TANGJIAYAN.CN
+      link: 'https://nav.tangjiayan.cn/'
+    - theme: brand
       text: BLOG.TANGJIAYAN.CN
       link: 'https://blog.tangjiayan.cn/'
     - theme: brand
