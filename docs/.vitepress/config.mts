@@ -72,7 +72,7 @@ export default defineConfig({
         icon: {
           svg: `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
           <title>NeoDB: jantang</title>
-          <image href="/public/NeoDB.png" width="20" height="20" />
+          <image href="./public/NeoDB.png" width="20" height="20" />
           </svg>`
         },
         link: `https://neodb.social/users/jantang/`,
