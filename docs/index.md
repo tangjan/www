@@ -11,19 +11,19 @@ hero:
   #   alt: VitePress
   actions:
     - theme: brand
-      text: CV.TANGJIAYAN.CN
+      text: CV
       link: 'https://cv.tangjiayan.cn/'
     - theme: brand
-      text: NAV.TANGJIAYAN.CN
+      text: NAV
       link: 'https://nav.tangjiayan.cn/'
     - theme: brand
-      text: BLOG.TANGJIAYAN.CN
+      text: BLOG
       link: 'https://blog.tangjiayan.cn/'
     - theme: brand
-      text: STORY.TANGJIAYAN.CN
+      text: STORY
       link: 'https://story.tangjiayan.cn/'
     - theme: brand
-      text: NOTES.TANGJIAYAN.CN
+      text: NOTES
       link: 'https://notes.tangjiayan.cn/'
 
 head:
