@@ -1,67 +1,57 @@
+/* name hover 特效 */
+
 .name {
-    font-family: 'Black Ops One', sans-serif;
-    display: inline;
+  font-family: "Black Ops One", sans-serif;
+  display: inline;
 }
 
 .name:hover {
-    animation: uk-text-shadow-glitch .65s cubic-bezier(1,-1.91,0,2.79) 0s infinite normal both running;
-    cursor: crosshair;
+  cursor: crosshair;
 }
 
-@keyframes uk-text-shadow-glitch {
-    0% {
-        text-shadow: none;
-    }
-    25% {
-        text-shadow: -2px -2px 0 #ff004f, 2px 2px 0 #00f7ef;
-    }
-    50% {
-        text-shadow: 2px -2px 0 #ff004f, -2px 2px 0 #00f7ef;
-    }
-    75% {
-        text-shadow: -2px 2px 0 #ff004f, 2px -2px 0 #00f7ef;
-    }
-    100% {
-        text-shadow: 2px 2px 0 #ff004f, -2px -2px 0 #00f7ef;
-    }
-}
+/* 深色主题背景图片 */
 
 body {
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url(https://cdn.tangjiayan.com/bg.png);
-    background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(/bg.png);
+  background-position: center;
 }
+
+/* 深色背景图片 页脚防截断 */
 
 footer {
-    background: transparent !important;
-
+  background: transparent !important;
 }
 
-footer a {
-    display: inline-block;
-    text-decoration: underline;
-}
-
-footer a img{
-    vertical-align: middle;
-    display: inline-block;
-    margin-right: 5px;
-}
-
-footer a:hover {
-    color:rgb(106, 101, 212);
-}
-
-/* .clip {
-    margin-bottom: 300px !important;
-} */
+/* 按钮竖排 */
 
 .actions {
-    display: block !important;
-    padding-top: 100px !important;
+  display: block !important;
+  padding-top: 100px !important;
 }
 
-/* .VPButton {
-    display: inline;
-} */
+/* 切换按钮移位 */
+
+.my_VPSwitch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* VPContent 内容居中 */
+
+.VPContent {
+  display: flex; /* 使用 Flexbox 布局 */
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中（如果有高度） */
+  text-align: center; /* 文字居中 */
+}
+
+/* 隐藏默认导航栏 */
+
+.VPNav {
+  display: none;
+}
