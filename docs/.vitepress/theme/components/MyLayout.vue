@@ -2,10 +2,10 @@
 import DefaultTheme from "vitepress/theme";
 
 import VPSwitchAppearance from './VPSwitchAppearance.vue'
+import VPSocialLinks from './VPSocialLinks.vue'
 
 import { useData } from '../composables/data'
 const { site, theme } = useData()
-import VPSocialLinks from './VPSocialLinks.vue'
 
 const { Layout } = DefaultTheme;
 </script>
