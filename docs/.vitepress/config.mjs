@@ -91,8 +91,8 @@ export default defineConfig({
       },
     ],
 
-    footer: {
-      copyright: "Copyright © 2024 糖加盐",
-    },
+    // footer: {
+    //   copyright: "Copyright © 2024 糖加盐",
+    // },
   },
 });
