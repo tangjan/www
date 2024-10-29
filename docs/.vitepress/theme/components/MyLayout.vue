@@ -5,7 +5,7 @@ import VPSwitchAppearance from './VPSwitchAppearance.vue'
 import VPSocialLinks from './VPSocialLinks.vue'
 
 import { useData } from '../composables/data'
-const { site, theme } = useData()
+const { theme } = useData()
 
 const { Layout } = DefaultTheme;
 </script>
